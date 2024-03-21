@@ -1,40 +1,21 @@
 {
-	"name": "vscode-notebook-error-overlay",
-	"version": "0.0.1",
-	"private": false,
-	"description": "Provides a notebook-aware error overlay in VS Code notebooks built with the webpack-dev-server",
-	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
-	"bugs": {
-		"url": "https://github.com/CodeEditorLand/Foundation/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "Playform",
-		"email": "Hello@Playform.Cloud",
-		"url": "https://playform.cloud"
-	},
-	"sideEffects": false,
-	"type": "module",
-	"main": "./dist/index.js",
-	"scripts": {
-		"compile": "tsc",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
-		"watch": "tsc --watch"
-	},
 	"dependencies": {
 		"preact": "^10.4.1",
 		"vscode-webview-tools": "^0.1.0"
 	},
+	"description": "Provides a notebook-aware error overlay in VS Code notebooks built with the webpack-dev-server",
 	"devDependencies": {
 		"rimraf": "^3.0.2",
 		"typescript": "^3.7.5",
 		"typescript-esbuild": "0.4.5"
 	},
-	"publishConfig": {
-		"access": "public"
-	}
+	"main": "./dist/index.js",
+	"name": "vscode-notebook-error-overlay",
+	"scripts": {
+		"compile": "tsc",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+		"watch": "tsc --watch"
+	},
+	"sideEffects": false,
+	"type": "module"
 }
