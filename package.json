@@ -32,7 +32,7 @@
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
-		"rimraf": "^3.0.2"
+		"rimraf": "5.0.5"
 	},
 	"publishConfig": {
 		"access": "public"
