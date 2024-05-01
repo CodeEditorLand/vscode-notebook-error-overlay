@@ -1,40 +1,40 @@
 {
-	"author": {
-		"email": "Land@PlayForm.Cloud",
-		"name": "🌆 — Land —",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandNotebookErrorOverlay/issues"
-	},
-	"dependencies": {},
+	"name": "vscode-notebook-error-overlay",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Provides a notebook-aware error overlay in VS Code notebooks built with the webpack-dev-server",
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
-		"rimraf": "5.0.5"
-	},
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNotebookErrorOverlay#readme",
 	"keywords": [
 		"land"
 	],
-	"license": "SEE LICENSE IN LICENSE",
-	"main": "./dist/index.js",
-	"name": "vscode-notebook-error-overlay",
-	"private": false,
-	"publishConfig": {
-		"access": "public"
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandNotebookErrorOverlay#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandNotebookErrorOverlay/issues"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/LandNotebookErrorOverlay.git"
 	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "🌆 — Land —",
+		"email": "Land@PlayForm.Cloud",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"sideEffects": false,
+	"type": "module",
+	"main": "./dist/index.js",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"compile": "tsc",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
-	"sideEffects": false,
-	"type": "module",
-	"version": "0.0.1"
+	"dependencies": {},
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"rimraf": "5.0.5"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
