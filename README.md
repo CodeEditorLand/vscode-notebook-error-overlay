@@ -4,7 +4,7 @@ This provides a Notebook-aware error overlay, somewhat like that which
 `create-react-app` provides. This is used in our
 [renderer starter](https://github.com/microsoft/vscode-notebook-renderer-starter).
 
-### Usage
+### 🛠️ Usage
 
 First, install it:
 
