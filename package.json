@@ -2,7 +2,7 @@
 	"dependencies": {},
 	"description": "Provides a notebook-aware error overlay in VS Code notebooks built with the webpack-dev-server",
 	"devDependencies": {
-		"rimraf": "^3.0.2"
+		"rimraf": "6.0.1"
 	},
 	"main": "./dist/index.js",
 	"name": "vscode-notebook-error-overlay",
