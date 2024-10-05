@@ -1,6 +1,8 @@
 # vscode-notebook-error-overlay
 
-This provides a Notebook-aware error overlay, somewhat like that which `create-react-app` provides. This is used in our [renderer starter](https://github.com/microsoft/vscode-notebook-renderer-starter).
+This provides a Notebook-aware error overlay, somewhat like that which
+`create-react-app` provides. This is used in our
+[renderer starter](https://github.com/microsoft/vscode-notebook-renderer-starter).
 
 ### Usage
 
@@ -23,7 +25,9 @@ function renderOutput(domNode) {
 }
 ```
 
-You can alternatively install and render in a wrapped function, which has the advantage of displaying any errors synchronously thrown from the render() function:
+You can alternatively install and render in a wrapped function, which has the
+advantage of displaying any errors synchronously thrown from the render()
+function:
 
 ```ts
 import errorOverlay from 'vscode-notebook-error-overlay';
@@ -33,4 +37,5 @@ const renderOutput = domNode => errorOverlay.wrap(domNode, () => {
 });
 ```
 
-If any build errors happen when running from the `webpack-dev-server`, an appropriate error message will be shown wherever the overlay is installed.
+If any build errors happen when running from the `webpack-dev-server`, an
+appropriate error message will be shown wherever the overlay is installed.
